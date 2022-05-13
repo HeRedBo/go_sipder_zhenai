@@ -13,4 +13,8 @@ golang 珍爱网爬虫
 └── SingleTask   # 单任务版本爬虫
 ```
 
+## 项目架构明
+### 单任务爬虫架构
+![示例图片](https://github.com/HeRedBo/go_sipder_zhenai/blob/master/SingleTask/code_images/%E5%8D%95%E4%BB%BB%E5%8A%A1%E7%89%88.PNG)
+
 
