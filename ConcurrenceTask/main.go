@@ -8,8 +8,8 @@ import (
 
 func main() {
 	e := engine.ConcurrentEngine{
-		Scheduler: &scheduler.SimpleScheduler{},
-		WorkerCount: 10,
+		Scheduler: &scheduler.QueuedScheduler{},
+		WorkerCount: 100,
 	}
 	e.Run(engine.Request{
 		Type : "url",
