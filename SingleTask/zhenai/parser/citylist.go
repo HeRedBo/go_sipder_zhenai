@@ -16,9 +16,11 @@ func ParseCityList(contens []byte) engine.ParseResult {
 		result.Items = append(result.Items,"City " +string(m[2]))
 		result.Requests = append(result.Requests,engine.Request{
 			Type: "url",
-			Url:string(m[1]),
+			Url: string(m[1]),
 			//ParserFuc: engine.NilParser,
-			ParserFuc: ParseCity,
+			ParserFuc: func(bytes []byte) engine.ParseResult {
+				return ParseCityUserList(bytes, string(m[1]))
+			},
 		})
 		limit --
 		if limit == 0 {

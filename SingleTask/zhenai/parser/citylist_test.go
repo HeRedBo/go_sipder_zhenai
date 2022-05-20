@@ -1,23 +1,47 @@
 package parser
 
 import (
+	"GoSpider/SingleTask/fetcher"
+	"GoSpider/SingleTask/zhenai/model"
+	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"regexp"
+	"strings"
 	"testing"
 )
 
 func TestParseCityList(t *testing.T) {
-	//contens , err := fetcher.Fetch("http://www.zhenai.com/zhenghun")
-	contens , err := ioutil.ReadFile("citylist_test_data.html")
+	contens , err := fetcher.Fetch("http://www.zhenai.com/zhenghun/akesu")
+	//contens , err := ioutil.ReadFile("citylist_test_data.html")
 
 	if err != nil {
 		panic(err)
 	}
 
 
-	fmt.Printf("%s \n", contens)
 
 	//filePath := "citylist_test_data.html"
+
+	//var InstallRe2 = `<a href="(http://www.zhenai.com/zhenghun/[0-9a-z]+)"[^>]*>([^<]+)</a>`
+	var InstallRe = `window.__INITIAL_STATE__=(.*?)</script>`
+
+	matches := regexp.MustCompile(InstallRe).FindAllSubmatch(contens,-1)
+	fmt.Println(len(matches))
+	var json_str string
+	for _,m := range matches {
+		json_str = string(m[1])
+	}
+	json_str2  := strings.Replace(json_str,";(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());","",1)
+	fmt.Println(json_str2)
+	data := model.CityDetailList{}
+	if err := json.Unmarshal([]byte(json_str2),&data); err == nil {
+		fmt.Println(data.MemberListData)
+
+	} else {
+		fmt.Println("err",err)
+	}
+
+
 
 
 

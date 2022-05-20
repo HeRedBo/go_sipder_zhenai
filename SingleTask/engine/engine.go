@@ -22,7 +22,7 @@ func Run(seeds ...Request) {
 				log.Printf("Fetcher: error " + " fetching url %s : %s" , r.Url, err)
 				continue
 			}
-		} else if r.Type == "html"  {
+		} else if r.Type == "html"  || r.Type == "json" {
 			var data []byte = []byte(r.Text)
 			body  = data
 		}
