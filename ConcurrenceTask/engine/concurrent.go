@@ -8,6 +8,7 @@ import (
 type ConcurrentEngine struct {
 	Scheduler Scheduler
 	WorkerCount int
+	ItemChan chan interface{}
 }
 
 type Scheduler interface {
@@ -39,8 +40,16 @@ func ( e *ConcurrentEngine) Run(seeds ...Request) {
 		for _, item :=  range result.Items {
 			//fmt.Printf("Got item: %v", item)
 			//log.Printf("Got Item #%d %v", itemCount,item)
-			if  _, ok := item.(model.CityProfile); ok {
-				log.Printf("Got CityProfile Item #%d %v",ProfileCount, item)
+			//if  _, ok := item.(model.CityProfile); ok {
+			//if  _, ok := item.(model.CityProfile); ok {
+			//	log.Printf("Got CityProfile Item #%d %v",ProfileCount, item)
+			//go func() { e.ItemChan <- item }()
+			//	ProfileCount ++
+			//}
+
+			if  _, ok := item.(model.Member); ok {
+				//log.Printf("Got Member Item #%d %v",ProfileCount, item)
+				go func(v interface{}) { e.ItemChan <- v }(item)
 				ProfileCount ++
 			}
 		}
@@ -54,7 +63,6 @@ func ( e *ConcurrentEngine) Run(seeds ...Request) {
 			e.Scheduler.Submit(request)
 		}
 	}
-
 }
 
 func createWorkder(in chan Request,out chan ParseResult, ready ReadyNotifier) {
