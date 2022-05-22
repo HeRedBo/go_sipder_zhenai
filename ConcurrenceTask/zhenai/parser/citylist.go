@@ -12,7 +12,7 @@ func ParseCityList(contens []byte) engine.ParseResult {
 	re := regexp.MustCompile(CityListRe)
 	matches := re.FindAllSubmatch(contens,-1)
 	result := engine.ParseResult{}
-	limit := 1
+	limit := 100
 	PageLimit := 6
 	for _, m := range matches {
 		if limit  == 0 {

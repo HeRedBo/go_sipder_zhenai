@@ -10,7 +10,7 @@ import (
 func main() {
 	// 初始化 es 链接
 
-	itemChan,err := persist.ItemSaver("dating_prifile")
+	itemChan,err := persist.ItemSaver("dating_profile")
 	if err != nil {
 		panic(err)
 	}
