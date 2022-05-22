@@ -1,0 +1,972 @@
+{
+  "memberListData": {
+    "currentPage": 3,
+    "memberList": [
+      {
+        "age": 33,
+        "avatarURL": "https://photo.zastatic.com/images/photo/370285/1481136412/8661567153511803286.jpg",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "天蝎座(10.23-11.21)",
+        "education": "大学本科",
+        "height": 181,
+        "house": "已购房",
+        "introduceContent": "喜欢小动物。不打游戏，热爱各种运动，特别是滑雪和潜水。",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 23:05:12",
+        "marriage": "离异",
+        "memberID": 1481136412,
+        "nickName": "Paul",
+        "objectAge": "25-29岁",
+        "objectHight": "164-173cm",
+        "objectMarriage": "未填写",
+        "objectSalary": "12000-20000元",
+        "occupation": "其他职业",
+        "salary": "20001-50000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 36,
+        "avatarURL": "https://photo.zastatic.com/images/photo/333540/1334158684/21570562522188627.png",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "大专",
+        "height": 171,
+        "house": "已购房",
+        "introduceContent": "一路走来我并不优秀，但是我善良不虚伪，有话直来直去，做人坦坦荡荡！我不聪明，但是我肯定也不傻，很多事情我看的明明白白，只是不想计较，更不愿意去争论！一个人活的太聪明了，会累，有时候傻一点会更快乐。相亲以朋友身份相处彼此了解，如果彼此觉得不合适可以做朋友也可以当人生一个过客。",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 22:58:53",
+        "marriage": "未婚",
+        "memberID": 1334158684,
+        "nickName": "坦诚相待",
+        "objectAge": "30岁以上",
+        "objectHight": "157cm以上",
+        "objectMarriage": "未婚",
+        "objectSalary": "8000元以上",
+        "occupation": "自由职业",
+        "salary": "20001-50000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 29,
+        "avatarURL": "https://photo.zastatic.com/images/photo/372436/1489740788/222971011222697148.png",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "大学本科",
+        "height": 170,
+        "house": "已购房",
+        "introduceContent": "广东湛江人，15年毕业，中山工作一年半，17年初来只身来到广州，从事跨境电商工作，与朋友合伙，收入稳定。父母在老家，有一个哥哥一个姐姐，目前在广州已购房（月供，可以解决将来孩子读书的问题）热爱运动，比如跑步，登山，骑行，也喜欢旅行，摄影！想找一个在广州工作的，通情达理，开朗乐观的女生！一起努力，共同成长，期待你的到来！",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 22:45:09",
+        "marriage": "未婚",
+        "memberID": 1489740788,
+        "nickName": "日月星晨",
+        "objectAge": "23-29岁",
+        "objectHight": "157-167cm",
+        "objectMarriage": "未婚",
+        "objectSalary": "8000-20000元",
+        "occupation": "合伙人",
+        "salary": "20001-50000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 40,
+        "avatarURL": "https://photo.zastatic.com/images/photo/478907/1915625562/849995549194497641.png",
+        "car": "未填写",
+        "children": "有孩子但不在身边",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "高中及以下",
+        "height": 172,
+        "house": "租房",
+        "introduceContent": "遇见谁和谁一起生活．随心而至，随性而往！顺其自然 ，好与不好都随缘而遇……非诚勿扰，骗子绕道！",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 22:21:13",
+        "marriage": "离异",
+        "memberID": 1915625562,
+        "nickName": "谭谈",
+        "objectAge": "28-36岁",
+        "objectHight": "160-165cm",
+        "objectMarriage": "未填写",
+        "objectSalary": "5000-50000元",
+        "occupation": "建筑/房地产",
+        "salary": "12001-20000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 35,
+        "avatarURL": "https://photo.zastatic.com/images/photo/372955/1491819792/88970369645113518.png",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "大专",
+        "height": 166,
+        "house": "已购房",
+        "introduceContent": "单身并不可怕晚婚也没关系怕的是再也爱不上任何人对爱情既期待又恐惧不想孤独终老 更怕遍体鳞伤.",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 22:20:47",
+        "marriage": "未婚",
+        "memberID": 1491819792,
+        "nickName": "Jie船",
+        "objectAge": "27-40岁",
+        "objectHight": "170-195cm",
+        "objectMarriage": "未婚",
+        "objectSalary": "50000元以上",
+        "occupation": "销售",
+        "salary": "20001-50000元",
+        "sex": 1,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 27,
+        "avatarURL": "https://photo.zastatic.com/images/photo/366896/1467583658/4303205566825214243.png",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "射手座(11.22-12.21)",
+        "education": "大专",
+        "height": 172,
+        "house": "租房",
+        "introduceContent": "我相信 爱的本质一如生命的单纯与温柔我相信 所有的光与影的反射和相投",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 22:07:50",
+        "marriage": "未婚",
+        "memberID": 1467583658,
+        "nickName": "一个陌生女人来信",
+        "objectAge": "23-33岁",
+        "objectHight": "155-165cm",
+        "objectMarriage": "未婚",
+        "objectSalary": "未填写",
+        "occupation": "IT技术经理",
+        "salary": "12001-20000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 32,
+        "avatarURL": "https://photo.zastatic.com/images/photo/257286/1029142899/7240347353011566356.jpg",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "大学本科",
+        "height": 174,
+        "house": "已购房",
+        "introduceContent": "自己有个小公司，从事电商行业，一直没时间谈恋爱，奔着结婚的，希望找一个三观正，对待感情认真专一的，一定要孝顺，最好是喜欢小动物的",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 21:57:38",
+        "marriage": "未婚",
+        "memberID": 1029142899,
+        "nickName": "北极人制冷",
+        "objectAge": "18-26岁",
+        "objectHight": "155-170cm",
+        "objectMarriage": "未婚",
+        "objectSalary": "未填写",
+        "occupation": "其他职业",
+        "salary": "50000元以上",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 50,
+        "avatarURL": "https://photo.zastatic.com/images/photo/332717/1330867526/858344977955659478.jpg",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "天蝎座(10.23-11.21)",
+        "education": "高中及以下",
+        "height": 170,
+        "house": "打算婚后购房",
+        "introduceContent": "一只未婚的猪，真心想拔棵白菜回家，注重眼缘，特好美食、旅游，性格包容随和，敬重孝顺内敛之人，可以包容您的一切，更喜欢您有点小洁癖和摆放有序的习惯，但愿早日遇到您，不用老把钱罐埋地下！！缘分是个很奇妙的东西，只要对上眼，什么问题都不是问题，希望在这里能找到修炼百年才同渡船的那个您。丁克族的免聊勿扰！感恩！（有缘翻到这里请",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 21:55:53",
+        "marriage": "未婚",
+        "memberID": 1330867526,
+        "nickName": "彬彬有礼",
+        "objectAge": "33-43岁",
+        "objectHight": "155-180cm",
+        "objectMarriage": "未填写",
+        "objectSalary": "未填写",
+        "occupation": "自由职业",
+        "salary": "12001-20000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 39,
+        "avatarURL": "https://photo.zastatic.com/images/photo/407108/1628430392/682178355951418886.jpg",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "大专",
+        "height": 179,
+        "house": "已购房",
+        "introduceContent": "为人简单，真诚，同样希望对方简单真诚！找个互相喜欢，相互欣赏的，不要太物质的女子。个人某方面需求比较大，所以希望对方也能习惯，喜爱，能留得住我。正因为某方面的需求很大，不能给予的或是冷淡的，没有激情的请不要写信。连对方都满足不了的，怎么会幸福呢？需要的是心灵的碰撞，玩弄感情的请绕道！愿彼此一起组建温馨的家庭，一起经营好",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 21:48:04",
+        "marriage": "离异",
+        "memberID": 1628430392,
+        "nickName": "暖阳",
+        "objectAge": "26-45岁",
+        "objectHight": "158-170cm",
+        "objectMarriage": "未填写",
+        "objectSalary": "未填写",
+        "occupation": "自由职业",
+        "salary": "12001-20000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 39,
+        "avatarURL": "https://photo.zastatic.com/images/photo/321545/1286179671/372660729920112505.jpg",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "射手座(11.22-12.21)",
+        "education": "高中及以下",
+        "height": 165,
+        "house": "已购房",
+        "introduceContent": "喜欢简单的生活！来这里碰碰运气看能否遇到她！",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 21:33:51",
+        "marriage": "离异",
+        "memberID": 1286179671,
+        "nickName": "我的世界",
+        "objectAge": "30-36岁",
+        "objectHight": "155-165cm",
+        "objectMarriage": "未填写",
+        "objectSalary": "未填写",
+        "occupation": "厨师",
+        "salary": "5001-8000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 44,
+        "avatarURL": "https://photo.zastatic.com/images/photo/485009/1940032081/025306560923877838.png",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "天秤座(09.23-10.22)",
+        "education": "大学本科",
+        "height": 176,
+        "house": "租房",
+        "introduceContent": "不知道说什么、一切随缘吧！希望你是个务实、性格开朗的人！",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 21:22:28",
+        "marriage": "离异",
+        "memberID": 1940032081,
+        "nickName": "雨天路滑",
+        "objectAge": "35-45岁",
+        "objectHight": "163-173cm",
+        "objectMarriage": "未填写",
+        "objectSalary": "未填写",
+        "occupation": "其他职业",
+        "salary": "12001-20000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 42,
+        "avatarURL": "https://photo.zastatic.com/images/photo/373750/1494999378/865522606794524959.jpg",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "大学本科",
+        "height": 170,
+        "house": "已购房",
+        "introduceContent": "见字如面，一切如实，不谦不卑，给你个真实的我。如是半生失联的爱人同志看到，请即刻联系，回到组织中来，我在呼唤你。山东人，父亲是医生，母亲做生意，从小家庭条件不错，但没任何不良习气，反而从小被各种教育、各种吃苦，所以，造就了现在的内在。低调、不虚荣、幽默、乐观，能吃苦、坚韧，看事物透彻，有独立判断。热爱音乐，是个杂食者，",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 21:20:34",
+        "marriage": "未婚",
+        "memberID": 1494999378,
+        "nickName": "和自己赛跑的人",
+        "objectAge": "18-33岁",
+        "objectHight": "未填写",
+        "objectMarriage": "未填写",
+        "objectSalary": "未填写",
+        "occupation": "总经理",
+        "salary": "50000元以上",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 37,
+        "avatarURL": "https://photo.zastatic.com/images/photo/472358/1889429444/040636170180435973.jpg",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "天秤座(09.23-10.22)",
+        "education": "大学本科",
+        "height": 162,
+        "house": "租房",
+        "introduceContent": "接受闪婚，非诚勿扰！寻找三观一致聊得来的有缘人。  在广东定居，过年过节也在广东的(从小放假过节就在路上奔波，不想再这样子，非地域歧视)。我未婚未育，如果您是离异有小孩，170cm以下暂时不考虑。祝你心想事成，谢谢！不会打扮，年龄大已是原罪。? 互不相识的人与人之间，能否给予一点善意呢～",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 21:15:31",
+        "marriage": "未婚",
+        "memberID": 1889429444,
+        "nickName": "阿雨",
+        "objectAge": "37-44岁",
+        "objectHight": "170-188cm",
+        "objectMarriage": "未婚",
+        "objectSalary": "未填写",
+        "occupation": "政府机构",
+        "salary": "8001-12000元",
+        "sex": 1,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 41,
+        "avatarURL": "https://photo.zastatic.com/images/photo/6457/25824633/2457250577011831839.png",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "天蝎座(10.23-11.21)",
+        "education": "大学本科",
+        "height": 172,
+        "house": "已购房",
+        "introduceContent": "人生难得一个懂你的人: 最好的感情就是找一个能聊得来的伴，你不用多好，我喜欢就好，我没有多好，你不嫌弃就好。",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 21:06:49",
+        "marriage": "未婚",
+        "memberID": 25824633,
+        "nickName": "MIAO",
+        "objectAge": "25-35岁",
+        "objectHight": "158cm以上",
+        "objectMarriage": "未婚",
+        "objectSalary": "5000元以上",
+        "occupation": "IT技术经理",
+        "salary": "20001-50000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 47,
+        "avatarURL": "https://photo.zastatic.com/images/photo/261881/1047523180/1279871397552132750.jpg",
+        "car": "未填写",
+        "children": "有孩子且偶尔会一起住",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "高中及以下",
+        "height": 165,
+        "house": "租房",
+        "introduceContent": "我是一个直爽简单的农村女，真心找一个定居在广州佛山江门的终生伴侣，期待惊喜，拥抱幸福共创温馨的一个家，希望遇一个温柔体贴细心的暖男，是你了，在这等你。",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 21:05:20",
+        "marriage": "离异",
+        "memberID": 1047523180,
+        "nickName": "宋碗灵",
+        "objectAge": "38-59岁",
+        "objectHight": "170cm以上",
+        "objectMarriage": "未填写",
+        "objectSalary": "12000元以上",
+        "occupation": "经销商",
+        "salary": "8001-12000元",
+        "sex": 1,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 26,
+        "avatarURL": "https://photo.zastatic.com/images/photo/460243/1840969667/33155385292469498.jpg",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "大专",
+        "height": 172,
+        "house": "租房",
+        "introduceContent": "我是一个非常温和的人，一个很好的倾述对象。另外还是一个母胎单身的人，没有任何恋爱经验。所以，相对的，如果你是我要找的人，我会非常专一，只对你好，爱你疼你。",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 20:48:15",
+        "marriage": "未婚",
+        "memberID": 1840969667,
+        "nickName": "冬之韵",
+        "objectAge": "22-27岁",
+        "objectHight": "160cm以上",
+        "objectMarriage": "未婚",
+        "objectSalary": "5000元以上",
+        "occupation": "测试专员",
+        "salary": "5001-8000元",
+        "sex": 0,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 45,
+        "avatarURL": "https://photo.zastatic.com/images/photo/286216/1144861108/1440852089109705173.jpg",
+        "car": "未填写",
+        "children": "有孩子且偶尔会一起住",
+        "constellation": "天蝎座(10.23-11.21)",
+        "education": "大学本科",
+        "height": 165,
+        "house": "已购房",
+        "introduceContent": "白头偕老的浪漫，不是凑合到老，而是有人用心陪你，走过风霜雨雪，千山万壑，还愿意拉着你的手，静看时间流转，不惧华发满头。本人性格阳光积极、喜欢运动、看书、旅游等。希望能结识有缘的你，共谱人生新篇章!非诚勿扰，不符合条件、投机倒把人员不要加我！",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 20:47:00",
+        "marriage": "离异",
+        "memberID": 1144861108,
+        "nickName": "宁静致远",
+        "objectAge": "46-55岁",
+        "objectHight": "171-185cm",
+        "objectMarriage": "未填写",
+        "objectSalary": "50000-50000元",
+        "occupation": "人事经理",
+        "salary": "12001-20000元",
+        "sex": 1,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 38,
+        "avatarURL": "https://photo.zastatic.com/images/photo/313055/1252216465/5287704342137137890.jpg",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "天秤座(09.23-10.22)",
+        "education": "大学本科",
+        "height": 163,
+        "house": "已购房",
+        "introduceContent": "想要的幸福很简单，找一个可以互相理解、包容的人，相亲相爱.......要求对方：没有小孩、身高不低于170CM，有在广州生活和定居的打算。年龄大十岁以上及带小孩子在身边的暂时不打算接受，谢谢啦！因为一段短婚办过结婚证，还没来得及办酒席就各奔东西了，老家邻居左右都以为我未婚，总为我这么个大龄单身女青年着急，希望可以遇到真",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 20:14:43",
+        "marriage": "离异",
+        "memberID": 1252216465,
+        "nickName": "年华似水",
+        "objectAge": "33-44岁",
+        "objectHight": "170cm以上",
+        "objectMarriage": "未填写",
+        "objectSalary": "12000元以上",
+        "occupation": "财务总监",
+        "salary": "20001-50000元",
+        "sex": 1,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 31,
+        "avatarURL": "https://photo.zastatic.com/images/photo/310088/1240350389/8611043147071262293.jpg",
+        "car": "未填写",
+        "children": "有孩子且住在一起",
+        "constellation": "魔羯座(12.22-01.19)",
+        "education": "大学本科",
+        "height": 155,
+        "house": "已购房",
+        "introduceContent": "我闪婚离异，有个4岁多帅儿子归我抚养（我是独生子女，我父母很喜欢小孩），2013年本科毕业，来到央企工作，2017年去本集团的一个处机关做人力资源，离婚的原因就是性格不合，确实是走不下去了，选择分开。然后回成都和l父母一起住，一起带孩子。我从小喜欢阅读，写作也是我一直的梦想，现在网络小说作者，成绩还不错。我父亲是央企高",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 20:01:10",
+        "marriage": "离异",
+        "memberID": 1240350389,
+        "nickName": "飞扬柔顺",
+        "objectAge": "25-38岁",
+        "objectHight": "165-211cm",
+        "objectMarriage": "离异",
+        "objectSalary": "5000元以上",
+        "occupation": "人事专员",
+        "salary": "8001-12000元",
+        "sex": 1,
+        "workCity": "广东广州"
+      },
+      {
+        "age": 33,
+        "avatarURL": "https://photo.zastatic.com/images/photo/20532/82124170/604980828393723271.png",
+        "car": "未填写",
+        "children": "没有孩子",
+        "constellation": "天秤座(09.23-10.22)",
+        "education": "高中及以下",
+        "height": 159,
+        "house": "已购房",
+        "introduceContent": "想找一个属于我的依靠 因为工作时间较长 没啥时间处理个人问题 所以借助此平台找到合适的他",
+        "isRecommend": 0,
+        "lastModTime": "2022-05-19 19:19:56",
+        "marriage": "离异",
+        "memberID": 82124170,
+        "nickName": "Lotta",
+        "objectAge": "35-42岁",
+        "objectHight": "172-178cm",
+        "objectMarriage": "未婚",
+        "objectSalary": "12000-20000元",
+        "occupation": "销售经理",
+        "salary": "8001-12000元",
+        "sex": 1,
+        "workCity": "广东广州"
+      }
+    ],
+    "pageInfos": [
+      {
+        "currLocation": false,
+        "link": true,
+        "pageContent": "首页",
+        "pageLink": "http://www.zhenai.com/zhenghun/guangzhou/1"
+      },
+      {
+        "currLocation": false,
+        "link": true,
+        "pageContent": "上一页",
+        "pageLink": "http://www.zhenai.com/zhenghun/guangzhou/2"
+      },
+      {
+        "currLocation": false,
+        "link": true,
+        "pageContent": "1",
+        "pageLink": "http://www.zhenai.com/zhenghun/guangzhou/1"
+      },
+      {
+        "currLocation": false,
+        "link": true,
+        "pageContent": "2",
+        "pageLink": "http://www.zhenai.com/zhenghun/guangzhou/2"
+      },
+      {
+        "currLocation": true,
+        "link": true,
+        "pageContent": "3",
+        "pageLink": "http://www.zhenai.com/zhenghun/guangzhou/3"
+      },
+      {
+        "currLocation": false,
+        "link": false,
+        "pageContent": "..."
+      },
+      {
+        "currLocation": false,
+        "link": true,
+        "pageContent": "下一页",
+        "pageLink": "http://www.zhenai.com/zhenghun/guangzhou/4"
+      }
+    ],
+    "tkdInfo": {
+      "desc": "广州征婚网是由珍爱网专业红娘提供真实征婚信息服务的婚恋站点，旨在帮助广州大龄适龄男女青年发布征婚启事同城找对象，珍爱网支持一对一线下婚恋交友，上珍爱网征婚、对象不再难。",
+      "keywords": "广州征婚,广州征婚信息,广州征婚启事",
+      "title": "广州征婚网_广州征婚信息_免费发布征婚启事找对象_第3页_珍爱网",
+      "url": "http://m.zhenai.com/zhenghun/guangzhou/3"
+    },
+    "total": 20
+  },
+  "recommendListData": {
+    "memberList": [
+      {
+        "age": 25,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_13.jpg",
+        "briefIntroduceContent": "不用你多完美，我喜欢就好",
+        "height": 160,
+        "introduceContent": "不用你多完美，我喜欢就好",
+        "linkURL": "http://album.zhenai.com/u/70034915",
+        "memberId": 70034915,
+        "nickname": "华女士",
+        "salary": 3,
+        "sex": 1
+      },
+      {
+        "age": 29,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_4.jpg",
+        "briefIntroduceContent": "希望能遇见一路陪伴我的人",
+        "height": 183,
+        "introduceContent": "希望能遇见一路陪伴我的人",
+        "linkURL": "http://album.zhenai.com/u/69045240",
+        "memberId": 69045240,
+        "nickname": "刘先生",
+        "salary": 8,
+        "sex": 0
+      },
+      {
+        "age": 28,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_3.jpg",
+        "briefIntroduceContent": "简单 开朗 爱旅游 爱生活",
+        "height": 163,
+        "introduceContent": "简单 开朗 爱旅游 爱生活",
+        "linkURL": "http://album.zhenai.com/u/101285875",
+        "memberId": 101285875,
+        "nickname": "刘女士",
+        "salary": 5,
+        "sex": 1
+      },
+      {
+        "age": 29,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_18.jpg",
+        "briefIntroduceContent": "只想在茫茫人海与你相遇",
+        "height": 175,
+        "introduceContent": "只想在茫茫人海与你相遇",
+        "linkURL": "http://album.zhenai.com/u/60597671",
+        "memberId": 60597671,
+        "nickname": "刘先生",
+        "salary": 6,
+        "sex": 0
+      },
+      {
+        "age": 28,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_1.jpg",
+        "briefIntroduceContent": "找一个牵了手就不分手的人",
+        "height": 163,
+        "introduceContent": "找一个牵了手就不分手的人",
+        "linkURL": "http://album.zhenai.com/u/80301331",
+        "memberId": 80301331,
+        "nickname": "苏女士",
+        "salary": 4,
+        "sex": 1
+      }
+    ]
+  },
+  "footerData": {
+    "districtLevel": 2,
+    "mainCategory": {
+      "desc": "征婚栏目",
+      "mainCategory": [
+        {
+          "content": "广州征婚网",
+          "islinkURL": true,
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou"
+        },
+        {
+          "content": "专注为同城单身男女提供专业的征婚信息和征婚交友服务，珍爱网",
+          "islinkURL": false
+        },
+        {
+          "content": "广州征婚拥有千万白领会员，十年交友征婚服务品质，精准为您挑选意中人，开启您的爱情之旅。",
+          "islinkURL": false
+        }
+      ]
+    },
+    "nearbyCity": {
+      "cityList": [
+        {
+          "linkContent": "佛山征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/foshan"
+        },
+        {
+          "linkContent": "湛江征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/zhanjiang"
+        },
+        {
+          "linkContent": "珠海征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/zhuhai"
+        },
+        {
+          "linkContent": "肇庆征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/zhaoqing"
+        },
+        {
+          "linkContent": "东莞征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/dongguan"
+        },
+        {
+          "linkContent": "惠州征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/huizhou"
+        },
+        {
+          "linkContent": "中山征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/zhongshan3"
+        },
+        {
+          "linkContent": "茂名征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/maoming"
+        },
+        {
+          "linkContent": "汕头征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/shantou"
+        },
+        {
+          "linkContent": "梅州征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/meizhou"
+        },
+        {
+          "linkContent": "韶关征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/shaoguan"
+        },
+        {
+          "linkContent": "江门征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/jiangmen"
+        },
+        {
+          "linkContent": "清远征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/qingyuan3"
+        },
+        {
+          "linkContent": "潮州征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/chaozhou"
+        },
+        {
+          "linkContent": "阳江征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/yangjiang"
+        },
+        {
+          "linkContent": "河源征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/heyuan"
+        },
+        {
+          "linkContent": "揭阳征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/jieyang"
+        },
+        {
+          "linkContent": "汕尾征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/shanwei"
+        },
+        {
+          "linkContent": "云浮征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/yunfu"
+        },
+        {
+          "linkContent": "深圳征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/shenzhen"
+        }
+      ],
+      "desc": "周边征婚"
+    },
+    "relateCategory": {
+      "desc": "相关栏目",
+      "relatedCategorys": [
+        {
+          "categoryWord": "广州离异征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/liyi"
+        },
+        {
+          "categoryWord": "广州剩女征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/shengnv"
+        },
+        {
+          "categoryWord": "广州百姓征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/baixing"
+        },
+        {
+          "categoryWord": "广州白领征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/bailing"
+        },
+        {
+          "categoryWord": "广州公务员征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/gongwuyuan"
+        },
+        {
+          "categoryWord": "广州军人征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/junren"
+        },
+        {
+          "categoryWord": "广州中老年征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/zhonglaonian"
+        },
+        {
+          "categoryWord": "广州征婚启事",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/qishi"
+        },
+        {
+          "categoryWord": "广州单身征婚",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/danshen"
+        },
+        {
+          "categoryWord": "广州征婚信息",
+          "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/xinxi"
+        }
+      ]
+    }
+  },
+  "navigationData": {
+    "district": [
+      {
+        "currLocation": true,
+        "linkContent": "广州",
+        "linkURL": "http://www.zhenai.com/zhenghun/guangzhou"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "萝岗",
+        "linkURL": "http://www.zhenai.com/zhenghun/luogang"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "荔湾",
+        "linkURL": "http://www.zhenai.com/zhenghun/liwan"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "越秀",
+        "linkURL": "http://www.zhenai.com/zhenghun/yuexiu"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "海珠",
+        "linkURL": "http://www.zhenai.com/zhenghun/haizhu"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "天河",
+        "linkURL": "http://www.zhenai.com/zhenghun/tianhe"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "白云",
+        "linkURL": "http://www.zhenai.com/zhenghun/baiyun1"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "黄埔",
+        "linkURL": "http://www.zhenai.com/zhenghun/huangpu"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "南沙",
+        "linkURL": "http://www.zhenai.com/zhenghun/nansha"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "番禺",
+        "linkURL": "http://www.zhenai.com/zhenghun/fanyu"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "花都",
+        "linkURL": "http://www.zhenai.com/zhenghun/huadu"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "增城",
+        "linkURL": "http://www.zhenai.com/zhenghun/zengcheng"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "从化",
+        "linkURL": "http://www.zhenai.com/zhenghun/conghua"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "广东",
+        "linkURL": "http://www.zhenai.com/zhenghun/guangdong"
+      }
+    ],
+    "location": [
+      {
+        "currLocation": false,
+        "linkContent": "珍爱首页",
+        "linkURL": "http://www.zhenai.com"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "征婚交友",
+        "linkURL": "http://www.zhenai.com/zhenghun"
+      },
+      {
+        "currLocation": true,
+        "linkContent": "广州征婚",
+        "linkURL": "http://www.zhenai.com/zhenghun/guangzhou"
+      }
+    ],
+    "sex": [
+      {
+        "currLocation": true,
+        "linkContent": "全部",
+        "linkURL": "http://www.zhenai.com/zhenghun/guangzhou"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "男士",
+        "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/nan"
+      },
+      {
+        "currLocation": false,
+        "linkContent": "女士",
+        "linkURL": "http://www.zhenai.com/zhenghun/guangzhou/nv"
+      }
+    ]
+  },
+  "recommendRegisterListData": {
+    "memberList": [
+      {
+        "age": 26,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_7.jpg",
+        "briefIntroduceContent": "喜欢高个不戴眼镜的男生",
+        "height": 168,
+        "introduceContent": "喜欢高个不戴眼镜的男生",
+        "linkURL": "http://album.zhenai.com/u/1102943752",
+        "memberId": 1102943752,
+        "nickname": "王女士",
+        "salary": 4,
+        "sex": 1
+      },
+      {
+        "age": 32,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_10.jpg",
+        "briefIntroduceContent": "我觉得自己应该是一个榴莲",
+        "height": 175,
+        "introduceContent": "我觉得自己应该是一个榴莲",
+        "linkURL": "http://album.zhenai.com/u/31825982",
+        "memberId": 31825982,
+        "nickname": "李先生",
+        "salary": 8,
+        "sex": 0
+      },
+      {
+        "age": 25,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_13.jpg",
+        "briefIntroduceContent": "不用你多完美，我喜欢就好",
+        "height": 160,
+        "introduceContent": "不用你多完美，我喜欢就好",
+        "linkURL": "http://album.zhenai.com/u/70034915",
+        "memberId": 70034915,
+        "nickname": "华女士",
+        "salary": 3,
+        "sex": 1
+      },
+      {
+        "age": 28,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_9.jpg",
+        "briefIntroduceContent": "风趣幽默稳重踏实，好交友",
+        "height": 178,
+        "introduceContent": "风趣幽默稳重踏实，好交友",
+        "linkURL": "http://album.zhenai.com/u/60682321",
+        "memberId": 60682321,
+        "nickname": "张先生",
+        "salary": 8,
+        "sex": 0
+      },
+      {
+        "age": 28,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_3.jpg",
+        "briefIntroduceContent": "简单 开朗 爱旅游 爱生活",
+        "height": 163,
+        "introduceContent": "简单 开朗 爱旅游 爱生活",
+        "linkURL": "http://album.zhenai.com/u/101285875",
+        "memberId": 101285875,
+        "nickname": "刘女士",
+        "salary": 5,
+        "sex": 1
+      },
+      {
+        "age": 35,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_22.jpg",
+        "briefIntroduceContent": "创业中，希望能遇见陪我的人",
+        "height": 178,
+        "introduceContent": "创业中，希望能遇见陪我的人",
+        "linkURL": "http://album.zhenai.com/u/40534374",
+        "memberId": 40534374,
+        "nickname": "程先生",
+        "salary": 8,
+        "sex": 0
+      },
+      {
+        "age": 29,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_20.jpg",
+        "briefIntroduceContent": "希望今年过年我不是一个人",
+        "height": 172,
+        "introduceContent": "希望今年过年我不是一个人",
+        "linkURL": "http://album.zhenai.com/u/86218455",
+        "memberId": 86218455,
+        "nickname": "武女士",
+        "salary": 4,
+        "sex": 1
+      },
+      {
+        "age": 29,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_21.jpg",
+        "briefIntroduceContent": "愿与你将温情如水进行到底",
+        "height": 180,
+        "introduceContent": "愿与你将温情如水进行到底",
+        "linkURL": "http://album.zhenai.com/u/82225064",
+        "memberId": 82225064,
+        "nickname": "刘先生",
+        "salary": 8,
+        "sex": 0
+      },
+      {
+        "age": 28,
+        "avatarURL": "http://images.zastatic.com/app/seo/randomuser/2_19.jpg",
+        "briefIntroduceContent": "有好感的会回复，不将就",
+        "height": 165,
+        "introduceContent": "有好感的会回复，不将就",
+        "linkURL": "http://album.zhenai.com/u/85525085",
+        "memberId": 85525085,
+        "nickname": "宋女士",
+        "salary": 4,
+        "sex": 1
+      }
+    ]
+  }
+}
