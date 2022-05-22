@@ -70,7 +70,7 @@ func (s SearchResultHandler) GetSearchResult(q string, p int,size int) (model.Se
 
 	from := ( p -1) * size
 
-	query_service := s.cient.Search("dating_prifile").
+	query_service := s.cient.Search("dating_profile").
 		From(from).
 		Size(size)
 
