@@ -23,6 +23,9 @@ golang 珍爱网爬虫
 ![示例图片](https://github.com/HeRedBo/go_sipder_zhenai/blob/master/SingleTask/code_images/%E5%B9%B6%E5%8F%91%E7%89%88%E7%88%AC%E8%99%AB%2B%E7%B2%97%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8.png)
 
 
+### Web 页面展示效果
+![示例图片](https://github.com/HeRedBo/go_sipder_zhenai/blob/master/SingleTask/code_images/web_page.png)
+
 
 ### 环境要求
 - golang >=1.7
@@ -40,6 +43,16 @@ golang 珍爱网爬虫
 # 进入对应的项目 如 SingleTask  一次 执行如下命令：
 go  mod tidy 
 go mod vendor
+
+#  在执行 如下 命令 运行项目 
+go run main.go  
+
+
+# 运行 web 环境 展示数据页面
+进入项目 ConcurrenceTask 目录 frontend 项目目录 
+运行 如下命令
+go run starter.go 
+启动后台web 服务
 
 ```
 
