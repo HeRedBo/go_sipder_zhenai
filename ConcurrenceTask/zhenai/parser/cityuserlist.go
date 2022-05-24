@@ -1,6 +1,7 @@
 package parser
 
 import (
+	"GoSpider/ConcurrenceTask/crawler_distributed/config"
 	"GoSpider/ConcurrenceTask/engine"
 	"regexp"
 	"strings"
@@ -18,10 +19,18 @@ func ParseCityUserList(contens []byte, url string) engine.ParseResult  {
 			Type: "json",
 			Url: "detail:" + url,
 			Text: Text,
-			ParserFuc: func(bytes []byte) engine.ParseResult {
-				return ParseMemberListProfile(bytes,url)
-			},
+			//ParserFuc: func(bytes []byte) engine.ParseResult {
+			//	return MenberListProfileParser(bytes,url)
+			//},
+			//ParserFuc:ParseMemberListProfile,
+			Parser: engine.NewFuncParser(ParseMemberListProfile,config.ParseMemberListProfile),
 		})
 	}
 	return result
 }
+
+//func MenberListProfileParser(url string) engine.ParseFunc  {
+//	return func(contens []byte) engine.ParseResult {
+//		return ParseMemberListProfile(contens,url)
+//	}
+//}

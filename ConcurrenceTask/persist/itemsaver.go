@@ -41,7 +41,7 @@ func ItemSaver(index string) (chan interface{},error) {
 		itemCount := 0
 		for {
 			item := <- out
-			id, err := save(client,index,item)
+			id, err := Save(client,index,item)
 			if err != nil {
 				log.Printf("item save :error saving item %v : %v\n", item, err )
 			}
@@ -52,7 +52,7 @@ func ItemSaver(index string) (chan interface{},error) {
 	return out,nil
 }
 
-func save(client *elastic.Client ,index string, item interface{} ) (id string,err error){
+func Save(client *elastic.Client ,index string, item interface{} ) (id string,err error){
 	//data := model.Member(item)
 	data := item.(model.Member)
 	IdString  := strconv.Itoa(data.MemberID)

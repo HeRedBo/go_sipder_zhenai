@@ -29,7 +29,7 @@ func Fetch(url string) ([]byte, error) {
 	e := determineEncodeing(bodyReader)
 	//utf8Reader := transform.NewReader(resp.Body,e.NewDecoder())
 	utf8Reader := transform.NewReader(bodyReader,e.NewDecoder())
-	return ioutil.ReadAll(utf8Reader);
+	return ioutil.ReadAll(utf8Reader)
 }
 
 func determineEncodeing(r *bufio.Reader) encoding.Encoding {

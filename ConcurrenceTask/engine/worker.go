@@ -5,7 +5,7 @@ import (
 	"log"
 )
 
-func worker(r Request) (ParseResult, error) {
+func Worker(r Request) (ParseResult, error) {
 	var body []byte
 	log.Printf("Fetching  type %s: Url: %s",  r.Type, r.Url)
 	if r.Type == "url" {
@@ -16,9 +16,10 @@ func worker(r Request) (ParseResult, error) {
 			return ParseResult{}, err
 		}
 	} else if r.Type == "json" || r.Type == "html" {
-		var data []byte = []byte(r.Text)
+		var data = []byte(r.Text)
 		body  = data
 	}
-	parseResult := r.ParserFuc(body)
+	//parseResult := r.ParserFuc(body,r.Url)
+	parseResult := r.Parser.Parser(body,r.Url)
 	return parseResult, nil
 }

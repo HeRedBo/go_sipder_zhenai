@@ -2,16 +2,21 @@ package main
 
 import (
 	"GoSpider/ConcurrenceTask/crawler_distributed/config"
+	ItemSaver "GoSpider/ConcurrenceTask/crawler_distributed/persist/client"
+	worker  "GoSpider/ConcurrenceTask/crawler_distributed/worker/client"
 	"GoSpider/ConcurrenceTask/engine"
-	"GoSpider/ConcurrenceTask/persist"
 	"GoSpider/ConcurrenceTask/scheduler"
 	"GoSpider/ConcurrenceTask/zhenai/parser"
+	"fmt"
 )
 
 func main() {
-	// 初始化 es 链接
-
-	itemChan,err := persist.ItemSaver("dating_profile_v4")
+	// 初始化 rpc  链接
+	itemChan,err := ItemSaver.ItemSaver(fmt.Sprintf(":%d",config.ItemSaverServicePort))
+	if err != nil {
+		panic(err)
+	}
+	processor , err := worker.CreateProcessor()
 	if err != nil {
 		panic(err)
 	}
@@ -20,12 +25,11 @@ func main() {
 		Scheduler: &scheduler.QueuedScheduler{},
 		WorkerCount: 100,
 		ItemChan: itemChan,
-		RequestProcessor: engine.Worker,
+		RequestProcessor: processor,
 	}
 	e.Run(engine.Request{
 		Type : "url",
 		Url: "http://www.zhenai.com/zhenghun",
-		//ParserFuc: parser.ParseCityList,
 		Parser: engine.NewFuncParser(parser.ParseCityList,config.ParseCityList),
 	})
 }

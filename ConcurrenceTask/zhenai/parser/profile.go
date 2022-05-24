@@ -13,7 +13,7 @@ import (
 const ProfileRe = `<a href="(http://album.zhenai.com/u/[0-9]+)"[^>]*>([^<]+)</a>`
 const ProfileRe2 = `<div data-v-8b1eac0c="" class="m-btn purple">未婚</div>`
 
-func ParseProfile (contens []byte) engine.ParseResult {
+func ParseProfile (contens []byte, _ string ) engine.ParseResult {
 	ioReader := bytes.NewReader(contens)
 	doc, err := goquery.NewDocumentFromReader(ioReader)
 	if err != nil {
@@ -51,8 +51,14 @@ func ParseProfile (contens []byte) engine.ParseResult {
 	profile.Education = userInfoMap[8]
 	//result := engine.ParseResult{}
 	//result.Items =
-	result := engine.ParseResult{
-		Items: []interface{}{profile},
-	}
+	//result := engine.ParseResult{
+	//	Items: []interface{}{profile},
+	//}
+	result := engine.ParseResult{}
+	result.Items = append(result.Items,engine.Item{Payload: profile})
+
+	//result := engine.ParseResult{
+	//	Items: []engine.Item{}{ Payload : profile},
+	//}
 	return result
 }

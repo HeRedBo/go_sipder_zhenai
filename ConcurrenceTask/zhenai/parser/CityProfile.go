@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func ParseCityProfile (contens []byte) engine.ParseResult {
+func ParseCityProfile (contens []byte, _ string ) engine.ParseResult {
 	ioReader := bytes.NewReader(contens)
 	doc, err := goquery.NewDocumentFromReader(ioReader)
 	if err != nil {
@@ -43,10 +43,15 @@ func ParseCityProfile (contens []byte) engine.ParseResult {
 	CityProfile.Marriage = marriage2
 	CityProfile.Height = height2
 	CityProfile.Introduce = introduce
-
-	result := engine.ParseResult{
-		Items: []interface{}{CityProfile},
+	item := engine.Item{
+		Id:      0,
+		Url:     "",
+		Type:    "",
+		Payload: CityProfile,
 	}
+
+	result := engine.ParseResult{}
+	result.Items = append(result.Items,item)
 	return result
 
 

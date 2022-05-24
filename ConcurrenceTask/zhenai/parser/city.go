@@ -7,7 +7,7 @@ import (
 	"log"
 )
 
-func ParseCity (contens []byte) engine.ParseResult {
+func ParseCity (contens []byte, _ string) engine.ParseResult {
 	ioReader := bytes.NewReader(contens)
 	doc, err := goquery.NewDocumentFromReader(ioReader)
 	if err != nil {
@@ -18,12 +18,17 @@ func ParseCity (contens []byte) engine.ParseResult {
 		nickName := s.Find(".content a").Eq(0).Text()
 		href,_  := s.Find(".photo >a").Attr("href")
 		content, _ := s.Html()
-		result.Items = append(result.Items, "User "  + nickName)
+		name  := "User "  + nickName
+		item := engine.Item{
+			Payload: name,
+		}
+		result.Items = append(result.Items,item)
 		result.Requests = append(result.Requests,engine.Request{
 			Type: "html",
 			Url : href,
 			Text: content,
-			ParserFuc: ParseCityProfile,
+			//ParserFuc: ParseCityProfile,
+			Parser: engine.NewFuncParser(ParseCityProfile,"ParseCityProfile"),
 		})
 	})
 	return result
