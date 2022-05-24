@@ -19,7 +19,7 @@ func ItemSaver(host string) (chan interface{},error) {
 			item := <- out
 			// call rpc to save item
 			result := ""
-			err = client.Call(config.CrawlerServiceRpc,item, &result)
+			err = client.Call(config.ItemSaverRpc,item, &result)
 			if err != nil {
 				log.Printf("item save :error saving item %v : %v\n", item, err )
 			}

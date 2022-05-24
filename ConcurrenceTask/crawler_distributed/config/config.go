@@ -15,6 +15,9 @@ const (
 	//Crawler Worker ServiceRpc
 	CrawlerServiceRpc = "CrawlerService.Process"
 
+	//RPC Service EndPoints
+	ItemSaverRpc = "ItemSaveService.Save"
+
 	// Parser names
 	NilParser     = "NilParser"
 	ParseCity     = "ParseCity"
